@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://signaturecraft.us/create_signature.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>SignatureCraft - A Free Minecraft Signature Generator!</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./SignatureCraft - A Free Minecraft Signature Generator!_files/style.css">
+        <script type="application/javascript" src="./SignatureCraft - A Free Minecraft Signature Generator!_files/jquery-1.8.3.min.js"></script>
+        <script type="application/javascript" src="./SignatureCraft - A Free Minecraft Signature Generator!_files/widget.js"></script>
+        <script type="application/javascript">
+            // google settings
+            google_ad_client = "ca-pub-9315037107063088";
+            google_ad_slot = "9669439647";
+            google_ad_width = 728;
+            google_ad_height = 90;
+            google_ga_tid = 'UA-18064817-3';
+            
+            // init jquery parts
+            $(document).ready(function() {
+                // fade-in body container
+                $("#container").hide();
+                $("#container").delay(200).fadeIn('fast');
+
+                // set random background image
+                var images = ['thebg.jpg', 'thebg2.jpg', 'thebg3.jpg', 'thebg4.jpg', 'thebg5.jpg'];
+                var image = images[Math.floor(Math.random() * images.length)];
+                $('#bg').attr('src', 'images/' + image);
+
+                // init google analytics
+                var prefix = (("https:" === document.location.protocol) ? "https://ssl." : "http://www.");
+                var gaurl = prefix + 'google-analytics.com/ga.js';
+                $.getScript(
+                    gaurl,
+                    function() {
+                        var pageTracker = _gat._getTracker(google_ga_tid);
+                        pageTracker._trackPageview();
+                    });
+            });
+        </script>
+    </head>
+    <body>
+        <!--[if lt IE 7]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->    
+        <img src="./SignatureCraft - A Free Minecraft Signature Generator!_files/thebg.jpg" alt="background image" id="bg">
+        <a href="http://himynameisaj.us/">
+            <img src="./SignatureCraft - A Free Minecraft Signature Generator!_files/version.png" border="0" alt="">
+        </a><script type="text/javascript" src="./SignatureCraft - A Free Minecraft Signature Generator!_files/jscolor.js"></script>
+<script type="text/javascript" src="./SignatureCraft - A Free Minecraft Signature Generator!_files/jquery.form.js"></script>
+<script type="text/javascript" src="./SignatureCraft - A Free Minecraft Signature Generator!_files/dynform.js"></script>
+<div id="container" style="display: block;">
+    <form id="sigcraftForm" action="http://signaturecraft.us/generate_signature.php" method="post">
+        <h3>Create Forum Signature</h3>
+        <table>
+            <tbody><tr>
+                <th scope="row">Top Message:</th>
+                <td><input name="text_top" type="text" value="Notch - Game Developer"></td>
+            </tr>
+            <tr>
+                <th scope="row">Bottom Message:</th>
+                <td><input name="text_bottom" type="text" value="http://mojang.com - The Creators Of Minecraft"></td>
+            </tr>
+            <tr>
+                <th scope="row">Minecraft Username:</th>
+                <td><input name="username" type="text" value="Notch"></td>
+            </tr>
+            <tr>
+                <th scope="row">Avatar Mode:</th>
+                <td>
+                    <input type="radio" name="avatar_mode" value="0" checked="checked">Head
+                    <input type="radio" name="avatar_mode" value="1">Upper Body
+                </td>
+            </tr>
+                <tr>
+                    <th scope="row">Text Color:</th>
+                    <td>
+                        <input type="text" style="width: 8em; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);" class="color" onchange="
+                                    document.getElementById(&#39;red&#39;).value = Math.round(this.color.rgb[0]*255);
+                                    document.getElementById(&#39;grn&#39;).value = Math.round(this.color.rgb[1]*255);
+                                    document.getElementById(&#39;blu&#39;).value = Math.round(this.color.rgb[2]*255);" autocomplete="off">
+                        <input name="text_r" type="text" value="255" id="red" hidden="hidden"> <input name="text_g" type="text" value="255" id="grn" hidden="hidden"> <input name="text_b" type="text" value="255" id="blu" hidden="hidden">
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Text Font:</th>
+                    <td>
+                        <select name="text_font"><option value="A Year Without Rain">A Year Without Rain</option><option value="Birth Of A Hero">Birth Of A Hero</option><option value="Coolvetica">Coolvetica</option><option value="God Of War">God Of War</option><option selected="selected" value="Minecraft">Minecraft</option><option value="Old London">Old London</option><option value="Star Jedi">Star Jedi</option><option value="Team Fortress 2">Team Fortress 2</option></select>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Background: </th>
+                    <td>
+                        <select name="background">
+                            <option value="">(Choose A Background Image)</option>
+                            <optgroup label="SigCraft Backgrounds"><option value="3D Grass">3D Grass</option><option value="Basic Dirt">Basic Dirt</option><option value="Basic Dirt_Dark">Basic Dirt_Dark</option><option value="Blurry Forest">Blurry Forest</option><option value="Creepers">Creepers</option><option value="Minecraft 2D">Minecraft 2D</option><option value="Minecraft Earth">Minecraft Earth</option><option value="MinecraftForum.net">MinecraftForum.net</option><option value="Mobs">Mobs</option><option value="Mountains">Mountains</option><option value="Moutainous">Moutainous</option><option value="Nether">Nether</option><option value="Ores">Ores</option><option value="Pickaxe">Pickaxe</option><option value="Rose">Rose</option><option value="Slimes">Slimes</option><option value="Spider Eyes">Spider Eyes</option><option value="Sunrise">Sunrise</option><option value="Sunset">Sunset</option><option selected="selected" value="Terrain 1">Terrain 1</option><option value="Terrain 2">Terrain 2</option><option value="Terrain 3">Terrain 3</option><option value="Terrain 4">Terrain 4</option><option value="The Hill">The Hill</option></optgroup>
+                            <optgroup label="User Created Backgrounds"><option value="ADrundaa - Manuel_M">ADrundaa - Manuel_M</option><option value="Base - Torrin">Base - Torrin</option><option value="CU Community - Kendev1994">CU Community - Kendev1994</option><option value="Capital World MC - Ashley Edden">Capital World MC - Ashley Edden</option><option value="Cat Creeper Chase- et283">Cat Creeper Chase- et283</option><option value="Clocks - Darkzellz">Clocks - Darkzellz</option><option value="Creeper House - WarAden">Creeper House - WarAden</option><option value="Dark - Ben Merchel">Dark - Ben Merchel</option><option value="Dark Creeper - Djay Mallas">Dark Creeper - Djay Mallas</option><option value="Dark World - iFelixxxx">Dark World - iFelixxxx</option><option value="Desert Ruins-Tama63">Desert Ruins-Tama63</option><option value="Elves - iFelixxxx">Elves - iFelixxxx</option><option value="Enderdragon - Daniel">Enderdragon - Daniel</option><option value="Evil Skull - iFelixxxx">Evil Skull - iFelixxxx</option><option value="Floating Island - Luna">Floating Island - Luna</option><option value="Frosty Cave - iFelixxxx">Frosty Cave - iFelixxxx</option><option value="Gears Of Minecraft - Jamal The Onion">Gears Of Minecraft - Jamal The Onion</option><option value="Girl and Boy - iFelixxxx">Girl and Boy - iFelixxxx</option><option value="Glass - Dr_Solomon">Glass - Dr_Solomon</option><option value="GoC - Romasu">GoC - Romasu</option><option value="Grass - Reddot">Grass - Reddot</option><option value="Hideyhole - ArcBR">Hideyhole - ArcBR</option><option value="Lighthouse - UltimateMastodon">Lighthouse - UltimateMastodon</option><option value="Live and Build - Ragon Dicon">Live and Build - Ragon Dicon</option><option value="Mad Skeleton - iFelixxxx">Mad Skeleton - iFelixxxx</option><option value="Minecraft - LightRun">Minecraft - LightRun</option><option value="Minecraft Spectrum - TrustedCreeper">Minecraft Spectrum - TrustedCreeper</option><option value="Monstaz - iFelixxxx">Monstaz - iFelixxxx</option><option value="Mooshroomer - Stelltrek">Mooshroomer - Stelltrek</option><option value="Mountainous - jake_kulp">Mountainous - jake_kulp</option><option value="Mussshhhhh - Tama63">Mussshhhhh - Tama63</option><option value="Natoo - nathanledu">Natoo - nathanledu</option><option value="Purple - Dr_Solomon">Purple - Dr_Solomon</option><option value="Redstone Powered - Pixelcaster">Redstone Powered - Pixelcaster</option><option value="Resort - Chumbledore">Resort - Chumbledore</option><option value="Sad Steve - Jamal The Onion">Sad Steve - Jamal The Onion</option><option value="Sheep - Dr_Solomon">Sheep - Dr_Solomon</option><option value="Skeleton - Elephanter">Skeleton - Elephanter</option><option value="Sky Island - CreepaMasta101">Sky Island - CreepaMasta101</option><option value="SlapGaming - fpsallan1">SlapGaming - fpsallan1</option><option value="Snowman - Timothy Snyder">Snowman - Timothy Snyder</option><option value="Sunrise - Skull Luck">Sunrise - Skull Luck</option><option value="Sunset Village - Justin Tran">Sunset Village - Justin Tran</option><option value="The Canopy - Tama63">The Canopy - Tama63</option><option value="The End-zbotpoint">The End-zbotpoint</option><option value="Vive Radiokube - babou1098">Vive Radiokube - babou1098</option><option value="We need to go deeper - Tama63">We need to go deeper - Tama63</option><option value="Wheat Farm - Florens">Wheat Farm - Florens</option><option value="Winter Sunrise - Tama63">Winter Sunrise - Tama63</option><option value="Zombies - iFelixxxx">Zombies - iFelixxxx</option></optgroup>
+                        </select>
+                    </td>
+                </tr>        </tbody></table>
+        <p>* The default values on this form are just suggestions. You can put anything you want at any format. Minecraft Usernames are case sensitive! To check, login on Minecraft.net and check on the top right the capitals of you username. If you do not want a user avatar, make the form blank. <!--If you want a mob as your avatar, find the mob name on the list below and put it as your username.</p>
+        <p>Steve, Pig, Cow, Wolf, Sheep, <s>ZombiePigmen</s>, Zombie, Skeleton and Creeper.--></p>
+        <p>&nbsp;</p>
+        <div class="center" id="result" style="display: block;">
+<h3>Your Generated SignatureCraft Signature</h3>
+<p><img src="./SignatureCraft - A Free Minecraft Signature Generator!_files/eJzzdC5KTCsxMDBS0FVwLkpNLMkvUshPUyguT03n8srPzFPIrVTIzsxLyc-1UshN1ivJSM3LL0vUy0st4fKEaeXyzcxLTQZxECwF18SikgwuI1NTODYAAJ02IjM~.png" width="373" height="80" alt="Your signature"></p>
+<table>
+    <tbody><tr>
+        <th scope="row">Image URL:</th>
+        <td><input type="text" id="imageurl" value="http://signaturecraft.us/signatures/eJzzdC5KTCsxMDBS0FVwLkpNLMkvUshPUyguT03n8srPzFPIrVTIzsxLyc-1UshN1ivJSM3LL0vUy0st4fKEaeXyzcxLTQZxECwF18SikgwuI1NTODYAAJ02IjM~.png" size="24"></td>
+    </tr>
+    <tr>
+        <th scope="row">Forum BB Code:</th>
+        <td><input type="text" id="imagebb" value="[url=http://signaturecraft.us/][img]http://signaturecraft.us/signatures/eJzzdC5KTCsxMDBS0FVwLkpNLMkvUshPUyguT03n8srPzFPIrVTIzsxLyc-1UshN1ivJSM3LL0vUy0st4fKEaeXyzcxLTQZxECwF18SikgwuI1NTODYAAJ02IjM~.png[/img][/url]" size="24"></td>
+    </tr>
+</tbody></table>
+<p>Please leave the BB link in your signature. It will help us get more populated. That shouldn't be much for a free, awesome forum signature, right? :D &lt;3</p>
+<p>&nbsp;</p>
+
+
+</div>
+        <div class="center">
+            <input type="image" src="./SignatureCraft - A Free Minecraft Signature Generator!_files/generate.png" value="Submit" alt="Generate Signature">
+            <a href="http://signaturecraft.us/"><img src="./SignatureCraft - A Free Minecraft Signature Generator!_files/cancel.png" border="0" alt="Cancel"></a>
+        </div>
+    </form>
+</div>
+<!--[if lt IE 7]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
+<div id="ads_foot">
+    <script type="application/javascript" src="./SignatureCraft - A Free Minecraft Signature Generator!_files/show_ads.js"></script><ins style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;"></iframe></ins></ins>
+</div>
+    
+</body></html>
